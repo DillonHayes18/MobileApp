@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HayesDillonApp.Pistol">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Pistols" FontSize="20" TextColor="Black" x:Name="shotgunLabel"/>
+                <!--X16-->
+                <Label Text="X16" FontSize="10" TextColor="Black" x:Name="x16Label"></Label>
+                <ImageButton Source="x16.png" Aspect="AspectFill" Clicked="X16_Clicked"></ImageButton>
+                <!--1911-->
+                <Label Text="P1911" FontSize="10" TextColor="Black" x:Name="P1911Label"></Label>
+                <ImageButton Source="P1911.png" Aspect="AspectFill" Clicked="P1911_Clicked"></ImageButton>
+                <!--357-->
+                <Label Text="P357" FontSize="10" TextColor="Black" x:Name="P357Label"></Label>
+                <ImageButton Source="P357.png" Aspect="AspectFill" Clicked="P357_Clicked"></ImageButton>
+                <!--Deagle-->
+                <Label Text="50 GS" FontSize="10" TextColor="Black" x:Name="deagleLabel"></Label>
+                <ImageButton Source="deagle.png" Aspect="AspectFill" Clicked="DEAGLE_Clicked"></ImageButton>
+                <!--M19-->
+                <Label Text="M19" FontSize="10" TextColor="Black" x:Name="M19Label"></Label>
+                <ImageButton Source="m19.png" Aspect="AspectFill" Clicked="M19_Clicked"></ImageButton>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

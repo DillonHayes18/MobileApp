@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HayesDillonApp.Smg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Sub Machine Guns" FontSize="20" TextColor="Black" x:Name="smgLabel"/>
+                <!--MP5-->
+                <Label Text="MP5" FontSize="10" TextColor="Black" x:Name="mp5Label"></Label>
+                <ImageButton Source="mp5.png" Aspect="AspectFill" Clicked="MP5_Clicked"></ImageButton>
+                <!--MP7-->
+                <Label Text="MP7" FontSize="10" TextColor="Black" x:Name="mp7Label"></Label>
+                <ImageButton Source="mp7.png" Aspect="AspectFill" Clicked="MP7_Clicked"></ImageButton>
+                <!--AUG-->
+                <Label Text="AUG" FontSize="10" TextColor="Black" x:Name="augLabel"></Label>
+                <ImageButton Source="aug.png" Aspect="AspectFill" Clicked="AUG_Clicked"></ImageButton>
+                <!--P90-->
+                <Label Text="P90" FontSize="10" TextColor="Black" x:Name="p90Label"></Label>
+                <ImageButton Source="p90.png" Aspect="AspectFill" Clicked="MP5_Clicked"></ImageButton>
+                <!--BIZON-->
+                <Label Text="PP19 BIZON" FontSize="10" TextColor="Black" x:Name="bizonLabel"></Label>
+                <ImageButton Source="bizon.png" Aspect="AspectFill" Clicked="BIZON_Clicked"></ImageButton>
+                <!--UZI-->
+                <Label Text="UZI" FontSize="10" TextColor="Black" x:Name="uziLabel"></Label>
+                <ImageButton Source="uzi.png" Aspect="AspectFill" Clicked="UZI_Clicked"></ImageButton>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

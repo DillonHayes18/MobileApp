@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HayesDillonApp.Assault">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Assault Rifles" FontSize="20" TextColor="Black" x:Name="assaultLabel"/>
+
+                <!--M13-->
+                <Label Text="M13" FontSize="10" TextColor="Black" x:Name="m13Label"></Label>
+                <ImageButton Source="m13.png" Aspect="AspectFill" Clicked="M13_Clicked"></ImageButton>
+                <!--M4A1-->
+                <Label Text="M4A1" FontSize="10" TextColor="Black" x:Name="m4Label"></Label>
+                <ImageButton Source="m4.png" Aspect="AspectFill" Clicked="M4A1_Clicked"></ImageButton>
+                <!--FR 5.56-->
+                <Label Text="FR 5.56" FontSize="10" TextColor="Black" x:Name="frLabel"></Label>
+                <ImageButton Source="fr67.png" Aspect="AspectFill" Clicked="FR556_Clicked"></ImageButton>
+                <!--AK47-->
+                <Label Text="AK47" FontSize="10" TextColor="Black" x:Name="ak47Label"></Label>
+                <ImageButton Source="ak47.png" Aspect="AspectFill" Clicked="AK47_Clicked"></ImageButton>
+                <!--FN FAL-->
+                <Label Text="FN FAL" FontSize="10" TextColor="Black" x:Name="falLabel"></Label>
+                <ImageButton Source="fal.png" Aspect="AspectFill" Clicked="FAL_Clicked"></ImageButton>
+                <!--SCAR 17-->
+                <Label Text="FN SCAR 17" FontSize="10" TextColor="Black" x:Name="scarLabel"></Label>
+                <ImageButton Source="scar.png" Aspect="AspectFill" Clicked="SCAR_Clicked"></ImageButton>
+                <!--ODEN-->
+                <Label Text="Oden" FontSize="10" TextColor="Black" x:Name="odenLabel"></Label>
+                <ImageButton Source="odean.png" Aspect="AspectFill" Clicked="ODEN_Clicked"></ImageButton>
+                <!--KILO -->
+                <Label Text="Kilo 141" FontSize="10" TextColor="Black" x:Name="kiloLabel"></Label>
+                <ImageButton Source="kilo.png" Aspect="AspectFill" Clicked="KILO_Clicked"></ImageButton>
+                <!--RAM-->
+                <Label Text="RAM 7" FontSize="10" TextColor="Black" x:Name="ramLabel"></Label>
+                <ImageButton Source="ram.png" Aspect="AspectFill" Clicked="RAM_Clicked"></ImageButton>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

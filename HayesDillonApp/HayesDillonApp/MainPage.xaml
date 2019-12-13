@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HayesDillonApp"
+             x:Class="HayesDillonApp.MainPage"
+             BackgroundColor="Gray">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout>
+                    <!--Navigation buttons-->
+                    <Button x:Name="assault" Text="Assault Rifles" Clicked="Assault_Clicked" BackgroundColor="Black" TextColor="White" Margin="0" Padding="0" FontSize="20"></Button>
+                    <Button x:Name="smg" Text="SMG's" Clicked="Smg_Clicked" BackgroundColor="Black" TextColor="White" Margin="0" Padding="0" FontSize="20"></Button>
+                    <Button x:Name="shotgun" Text="Shotguns" Clicked="Shotgun_Clicked" BackgroundColor="Black" TextColor="White" Margin="0" Padding="0" FontSize="20"></Button>
+                    <Button x:Name="sniper" Text="Snipers" Clicked="Sniper_Clicked" BackgroundColor="Black" TextColor="White" Margin="0" Padding="0" FontSize="20"></Button>
+                    <Button x:Name="secondary" Text="Pistols" Clicked="Secondary_Clicked" BackgroundColor="Black" TextColor="White" Margin="0" Padding="0" FontSize="20"></Button>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+

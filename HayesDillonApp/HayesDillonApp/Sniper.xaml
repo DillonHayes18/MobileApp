@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HayesDillonApp.Sniper">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Sub Machine Guns" FontSize="20" TextColor="Black" x:Name="smgLabel"/>
+                <!--AX-50-->
+                <Label Text="AX-50" FontSize="10" TextColor="Black" x:Name="axLabel"></Label>
+                <ImageButton Source="ax.png" Aspect="AspectFill" Clicked="AX_Clicked"></ImageButton>
+                <!--Dragonouv-->
+                <Label Text="Dragunov" FontSize="10" TextColor="Black" x:Name="dragLabel"></Label>
+                <ImageButton Source="dragunov.png" Aspect="AspectFill" Clicked="DRAG_Clicked"></ImageButton>
+                <!--HDR-->
+                <Label Text="HDR" FontSize="10" TextColor="Black" x:Name="hdrLabel"></Label>
+                <ImageButton Source="hdr.png" Aspect="AspectFill" Clicked="HDR_Clicked"></ImageButton>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

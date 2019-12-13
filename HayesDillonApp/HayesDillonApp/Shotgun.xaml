@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HayesDillonApp.Shotgun">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Shotguns" FontSize="20" TextColor="Black" x:Name="shotgunLabel"/>
+                <!--Model 870-->
+                <Label Text="Model 870" FontSize="10" TextColor="Black" x:Name="modelLabel"></Label>
+                <ImageButton Source="model.png" Aspect="AspectFill" Clicked="MODEL_Clicked"></ImageButton>
+                <!--R9-0-->
+                <Label Text="R9-0" FontSize="10" TextColor="Black" x:Name="r9Label"></Label>
+                <ImageButton Source="r9.png" Aspect="AspectFill" Clicked="R9_Clicked"></ImageButton>
+                <!--725-->
+                <Label Text="725" FontSize="10" TextColor="Black" x:Name="s25Label"></Label>
+                <ImageButton Source="P725.png" Aspect="AspectFill" Clicked="S25_Clicked"></ImageButton>
+                <!--ORIGIN-->
+                <Label Text="Origin 12" FontSize="10" TextColor="Black" x:Name="originLabel"></Label>
+                <ImageButton Source="origin.png" Aspect="AspectFill" Clicked="ORIGIN_Clicked"></ImageButton>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
